@@ -1,0 +1,702 @@
+/* CSS styles for the top section */
+.top-section {
+    display: flex;
+ 
+    justify-content: space-between;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+}
+ 
+nav {
+    background-color: #2389c9;
+    /* Background color for the navigation bar */
+}
+ 
+.horizontal-menu {
+    list-style-type: none;
+    padding: 20px;
+    display: flex;
+}
+ 
+ 
+ 
+.horizontal-menu li {
+    margin-right: 20px;
+    /* Add spacing between menu items */
+}
+ 
+ 
+ 
+.horizontal-menu li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last item */
+}
+ 
+ 
+.horizontal-menu a {
+    text-decoration: none;
+    color: #fff;
+    /* Text color for menu items */
+}
+ 
+ 
+.logo img {
+    max-width: 100px;
+}
+ 
+/* 2nd nav baar */
+nav {
+    background-color: #2389c9;
+    /* Background color for the navigation bar */
+}
+ 
+.horizontal-bar {
+    background-color: #fff;
+    /* Background color for the navigation bar */
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    overflow: hidden;
+    border-bottom: 2px solid #2389c9;
+    /* Add a border below the navigation bar */
+}
+ 
+.horizontal-bar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+    transition: border-bottom 0.2s ease-in-out;
+ 
+}
+ 
+.horizontal-bar a:hover {
+    border-bottom: 3px solid rgb(0, 162, 255);
+}
+ 
+.horizontal-bar a.active {
+    border-bottom: 3px solid rgb(0, 195, 255);
+}
+ 
+.horizontal-bar li {
+    margin-right: 20px;
+    /* Add spacing between menu items */
+}
+ 
+ 
+ 
+.horizontal-bar li:last-child {
+    margin-right: 0;
+    /* Remove margin from the last item */
+}
+ 
+ 
+.horizontal-bar a {
+    text-decoration: none;
+    color: #131212;
+    /* Text color for menu items */
+}
+ 
+ 
+.logo img {
+    max-width: 100px;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+/* CSS styles for the contact information */
+.contact-info {
+    display: flex;
+    /* Display email and phone side by side */
+}
+ 
+ 
+ 
+.contact-info p {
+    margin-right: 20px;
+    /* Add spacing between email and phone */
+}
+ 
+ 
+ 
+/* Rest of your CSS styles for the navigation bar (unchanged) */
+ 
+ 
+/* CSS styles for the section with background image */
+.image-section {
+    background-image: url('static\\Kneee.png');
+    /* Replace with your image path */
+    background-size: cover;
+    /* Adjust background image size as needed */
+    background-position: center;
+    color: #fff;
+    /* Text color for contrast */
+    text-align: left;
+    padding: 80px;
+    /* Add padding for spacing */
+}
+ 
+ 
+ 
+/* CSS styles for the content within the section */
+.content {
+    max-width: 800px;
+    /* Adjust content width as needed */
+}
+ 
+ 
+ 
+.content h2 {
+    font-size: 36px;
+    /* Adjust text size as needed */
+}
+ 
+ 
+ 
+.content p {
+    font-size: 18px;
+    /* Adjust text size as needed */
+}
+ 
+ 
+ 
+/* CSS styles for the button */
+.button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #007BFF;
+    /* Button background color */
+    color: #fff;
+    /* Button text color */
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+    /* Add spacing between text and button */
+}
+ 
+.section-container {
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+}
+ 
+.section {
+    display: flex;
+    /* Use flexbox for layout */
+    align-items: center;
+    /* Center content vertically */
+}
+ 
+.text {
+    flex: 1;
+    /* Make the text take up the remaining space */
+}
+ 
+.image {
+    flex: 1;
+    /* Make the image take up the remaining space */
+    text-align: right;
+    /* Align the image to the right within its space */
+}
+ 
+hr.dashed {
+    border: none;
+    /* Remove the default line */
+    border-top: 2px dashed #1c90b7;
+    /* Add a dashed line with a 2px width and custom color (e.g., orange) */
+}
+ 
+hr.dashed-one {
+    border: none;
+    /* Remove the default line */
+    border-top: 2px dashed #1c90b7;
+    /* Add a dashed line with a 2px width and custom color (e.g., orange) */
+    width: 90%;
+    /* Set the width of the dashed line (adjust as needed) */
+    margin: 20px;
+    /* Center the dashed line horizontally and add margin for spacing */
+}
+ 
+/* Style the main content section */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    /* Enable wrapping */
+    padding: 3.5%;
+}
+ 
+ 
+ 
+/* Style the left content */
+.left-content {
+    max-width: 70%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-right: 0px;
+ 
+}
+ 
+/*owl carousel*/
+.owl-carousel {
+    max-width: 75%;
+}
+ 
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .owl-carousel {
+        max-width: 100%;
+        /* Set a different max-width for smaller screens */
+    }
+}
+ 
+.item {
+    /*background-color: #5b598b;
+    .item {
+ 
+    border: 1px solid #dad7d7;
+ 
+    display: flex;    
+ 
+    flex-direction: column;
+ 
+    text-align: center;
+ 
+    max-width: 230px;
+ 
+    max-height: 280px;
+ 
+    padding: 15px;
+ 
+}*/
+    border: 1px solid #dad7d7;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 230px;
+    max-height: 280px;
+    padding: 15px;
+}
+ 
+/* Style for the H2 title  */
+.item h2 {
+    margin: 0;
+    /*Remove margin*/
+    padding-bottom: 10px;
+}
+ 
+/* Style for the slide */
+.video-container {
+    border: 1px solid #fff;
+    width: 3000px;
+    max-width: 100%;
+    max-height: 150px;
+    overflow: hidden;
+    flex-grow: 1;
+    /*border: 2px solid #333;
+     Add a 2px solid border with a color of your choice (#333 in this example) */
+    /*padding: 20px;
+    Add some padding inside the container if desired */
+}
+ 
+/* Style for the video itself */
+.video-container video {
+    max-width: 100%;
+    max-height: 100%;
+}
+ 
+/* Style for the author section */
+.author-section {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 10px;
+}
+ 
+/* Style for the fixed author photo */
+.author-photo {
+    max-width: 50px;
+    /* Adjust the size as needed */
+    border-radius: 50%;
+    /* Create a circular shape */
+    margin-right: 10px;
+}
+ 
+/* Style for the author name */
+.author-name {
+    font-weight: bold;
+}
+ 
+ 
+/* Style the sticky form container */
+.sticky-form {
+    flex: 0 0 300px;
+    /* Adjust the width as needed */
+    position: sticky;
+    top: 20px;
+    right: 20px;
+    /* Adjust the distance from the top as needed */
+    padding: 20px;
+    background-color: #fff;
+    /* Background color for the form */
+    border: 1px solid #ddd;
+    /* Add borders or other styles as needed */
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+    height: 420px;
+ 
+}
+ 
+#name {
+    width: 80%;
+    max-width: 900px;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 0 0 6px rgb(198, 194, 194);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+ 
+#email {
+    width: 80%;
+    max-width: 900px;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 0 0 6px rgb(198, 194, 194);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+ 
+#phone {
+    width: 80%;
+    max-width: 900px;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 0 0 6px rgb(198, 194, 194);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+ 
+#comment {
+    width: 80%;
+    max-width: 900px;
+    padding: 10px 10px;
+    border: none;
+    box-shadow: 0 0 6px rgb(198, 194, 194);
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+ 
+/* Style form elements inside the sticky form */
+.sticky-form form {
+    /* Style your form elements here */
+    display: flex;
+    flex-direction: column;
+ 
+}
+ 
+#Enquiry-button {
+    background-color: #008cba;
+    font-size: 18px;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    display: block;
+    margin: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ 
+ 
+.slides1 {
+    width: 50%;
+    max-width: fit-content;
+    border: 1px solid #fff;
+    /*border: none; Add a 2px solid border with a color of your choice (#333 in this example) */
+    padding: 10px;
+    /* Add some padding inside the container if desired */
+    box-shadow: 5px 15px 7px rgba(63, 54, 54, 0.3);
+    margin-right: 15px;
+    /* Adjust the margin to reduce space between slides */
+    box-sizing: border-box;
+    /* Ensure padding doesn't affect the width */
+    flex-direction: column;
+    background-color: #fff;
+}
+ 
+.slides2 {
+    width: 60%;
+    height: 20%;
+    border: 1px dashed #e93a3a;
+    padding: 0px;
+    /* Add some padding inside the container if desired */
+    box-shadow: 0 0;
+    margin-right: 2px;
+    border-radius: 10px;
+    /* Adjust the margin to reduce space between slides */
+}
+ 
+.slides2 img {
+    max-width: 100%; /* Ensure the image doesn't overflow the container */
+    border-radius: 10px 10px 0px 0px; /* Match the container's border radius */
+}
+ 
+.slide-container {
+    max-width: 100%;
+    margin-left: 100px;
+    margin-right: 100px;
+    /* Adjust the width as needed */
+    padding: 0 10px;
+    /* Add padding for spacing between slides */
+    display: flex; /* Use flexbox */
+    justify-content: center;
+}
+ 
+.slide-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #fff;
+    /* Border around the slide content */
+    border-radius: 5px;
+    background-color: #fff;
+    /* Background color for the content */    
+}
+ 
+.slides2 .slide-content {
+    border-radius: 0px 0px 10px 10px; /* Adjust the border radius as needed */
+}
+ 
+.base-carousel {
+    text-align: center;
+    max-width: 100%; /* Adjust as needed */
+    overflow: hidden;
+}
+ 
+.extended-carousel {
+    border: 1px solid #cce1f3;
+    background-color: #cce1f3;
+}
+ 
+ 
+ 
+/* Style for the page loader container */
+.page-loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    /* Semi-transparent white background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    /* Make sure it's on top of other content */
+}
+ 
+/* Style for the loader animation (you can use any loader animation here) */
+.loader {
+    border: 4px solid #f3f3f3;
+    /* Light gray border */
+    border-top: 4px solid #3498db;
+    /* Blue border */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: spin 2s linear infinite;
+    /* Loader animation */
+}
+ 
+/* Style for the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+ 
+/* Style for the footer content container */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+/* Style for the footer section */
+footer {
+    background-color: #3792dd;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Style for the footer content container */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* Style for the footer info */
+.footer-info {
+    text-align: left;
+    padding-left: 5%;
+}
+ 
+/* Keyframes for the loader animation */
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+ 
+    100% {
+        transform: rotate(360deg);
+    }
+}
+ 
+/* Add your existing navigation styles here */
+ 
+/* Mobile menu styles
+.menu-button {
+    display: none;
+    cursor: pointer;
+}
+ 
+.mobile-visible {
+    display: block;
+}
+ 
+@media screen and (max-width: 768px) {
+    .horizontal-menu, .horizontal-bar {
+        display: none;
+    }
+ 
+    .menu-button {
+        display: block;
+    }
+ 
+    .mobile-visible {
+        display: block;
+    }
+ 
+    /* Add additional mobile menu styling as needed
+}*/
+ 
+/* Styling for the hamburger menu icon */
+.menu-button {
+    display: none;
+    cursor: pointer;
+    font-size: 24px; /* Adjust the size as needed */
+    padding: 10px;
+}
+ 
+/* Styling for the mobile navigation menu */
+.mobile-visible {
+    display: block;
+}
+ 
+@media screen and (max-width: 768px) {
+    .horizontal-menu,
+    .horizontal-bar {
+        display: none;
+    }
+ 
+    .menu-button {
+        display: block;
+    }
+ 
+    .menu-button:hover {
+        background-color: #ddd; /* Add a background color on hover */
+    }
+ 
+    /* Mobile menu styles */
+    .mobile-visible {
+        display: block;
+        background-color: #2389c9; /* Background color for the mobile menu */
+        position: absolute;
+        top: 50px; /* Adjust the top position as needed */
+        left: 0;
+        right: 0;
+        text-align: center;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+ 
+    .mobile-visible a {
+        display: block;
+        padding: 10px;
+        color: #fff;
+        text-decoration: none;
+    }
+ 
+    /* Style for closing the mobile menu */
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        cursor: pointer;
+        color: #fff;
+    }
+}
+ 
+ 
+/*faq*/
+ 
+.faq-item {
+    margin-bottom: 20px;
+}
+ 
+.faq-question {
+    cursor: pointer;
+    font-weight: bold;
+}
+ 
+.faq-answer {
+    display: none;
+}
+ 
+.faq-item[open] .faq-answer {
+    display: block;
+}
+ 
+ 
+/* Style the summary (question) to display the plus symbol */
+.faq-question::before {
+    content: '+ ';
+    display: inline-block;
+    width: 20px; /* Adjust as needed for spacing */
+    text-align: center;
+    font-weight: bold;
+}
+ 
+/* Style the summary when the answer is open (minus symbol) */
+.faq-item[open] .faq-question::before {
+    content: '− ';
+}
+ 
+.faq-hr{
+    max-width: 95%;
+    color: #af9a9a;
+}
